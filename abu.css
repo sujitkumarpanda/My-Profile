@@ -1,0 +1,204 @@
+.abu {
+  background-color: rgba(247, 247, 169, 0.808);
+  margin-left: 300px;
+  margin-right: 300px;
+  border-radius: 50px;
+  text-align: center;
+  margin-top: 10px;
+  position: relative;
+}
+
+* {
+  box-sizing: border-box;
+}
+.navbar {
+  position: absolute;
+  margin-left: 5px;
+  margin-right: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+  max-width: 5cm;
+  min-height: 5cm;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+.qali {
+  max-width: 30cm;
+  min-height: 200px;
+  margin-left: 150px;
+  font-size: 30px;
+}
+.achiv {
+  background-color: red;
+
+  margin-left: 450px;
+  font-size: 20px;
+  margin-right: 400px;
+  text-align: center;
+}
+p1:hover {
+  color: rgb(52, 10, 240) !important;
+}
+
+h3:hover {
+  color: yellow;
+}
+
+body {
+  background-image: url("img/back-2.jpg");
+}
+.footer {
+  padding: 40px 0;
+  background-color: rgb(0, 0, 0);
+  color: #eaeeee;
+  margin-top: 50px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.footer ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.footer li {
+  padding: 0 10px;
+}
+
+.footer ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer ul a:hover {
+  opacity: 1;
+  color: darkkhaki;
+}
+
+.footer .social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.footer .social > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75;
+}
+
+.footer .social > a:hover {
+  opacity: 0.9;
+}
+
+.footer .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: rgb(235, 230, 230);
+  margin-bottom: 0;
+}
+i1:hover {
+  color: pink;
+}
+i2:hover {
+  color: rgb(224, 13, 13);
+}
+i3:hover {
+  color: rgb(12, 207, 233);
+}
+i4:hover {
+  color: rgb(7, 69, 241);
+}
